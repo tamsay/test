@@ -130,7 +130,8 @@ nav li a:hover{
 }
 #regularRooms{
     display: flex;
-    margin-bottom: -6em;
+    margin-bottom: 1em;
+    position: relative;
 }
 #regularRooms h3{
     font-size: 1.5em;
@@ -153,24 +154,49 @@ nav li a:hover{
 #standardRoom{
     width: 100%;
     margin: 0px 0.5em 0px 0px;
-}
-.roomDetails{
-    text-align: left;
     position: relative;
-    top: -10em;
-    right: -3em
+}
+#standardRoom div{
+    text-align: left;
+    position: absolute;
+    bottom: 3em;
+    left: 2em;
+}
+#standardRoom button{
+    position: absolute;
+    top: 1em;
+    right: 1em;
 }
 .price{
     font-weight: bold;
     color: white;
 }
 #silverRoom{
+    position: relative;
     width: 100%;
     margin: 0px 0px 0px 0.5em;
 }
-
+#silverRoom div{
+    text-align: left;
+    position: absolute;
+    bottom: 3em;
+    left: 2em;
+}
+#silverRoom button{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
 #goldRoom{
     width: 100%;
+    position: relative;
+}
+#goldRoom div{
+    text-align: left;
+    position: absolute;
+    bottom: 3em;
+    left: 2em;
+    
 }
 #goldRoom h3{
     font-size: 1.5em;
@@ -190,7 +216,7 @@ nav li a:hover{
 }
 
 .bookRoomBtn{
-    position: relative;
+    position: absolute;
     top: -45em;
     right: -25em;
     font-size: 0.9em;
@@ -200,9 +226,9 @@ nav li a:hover{
     border: 1px solid white;
 }
 #goldRoomBtn{
-    position: relative;
-    top: -35em;
-    right: -65em;
+    position: absolute;
+    top: 1em;
+    right: 1em;
     font-size: 0.9em;
     padding: 1em 2.5em;
     background: rgba(41, 41, 41, 0.4);
